@@ -1,0 +1,47 @@
+<svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Drop Shadow Filter for realism -->
+    <filter id="shadow" x="0" y="0" width="512" height="512" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.09"/>
+    </filter>
+    
+    <!-- Red-Orange Gradient for the Skyline -->
+    <linearGradient id="emblemGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#E35F14" />
+      <stop offset="60%" stopColor="#EB7223" />
+      <stop offset="100%" stopColor="#F58634" />
+    </linearGradient>
+  </defs>
+
+  <!-- Circular Base Disc matching uploaded layout -->
+  <circle cx="256" cy="256" r="224" fill="#FFFFFF" filter="url(#shadow)" />
+  <circle cx="256" cy="256" r="224" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="4" />
+
+  <!-- Center Group containing precisely balanced Skyline Emblem -->
+  <g transform="translate(95, 95) scale(2.8)">
+    <path d="M 12,71 L 102,71 L 108,65 L 108,68 L 102,74 L 12,74 Z" fill="#E35F14" />
+    <path d="M 12,71 L 12,28 L 42,21 L 42,71 Z" fill="url(#emblemGrad)" />
+    <path d="M 42,21 L 46,25 L 42,26 Z" fill="#FFF" opacity="0.3" />
+    <circle cx="21" cy="46" r="3.5" fill="#FFFFFF" />
+    <path d="M 50,71 L 50,18 L 62,12 L 62,71 Z" fill="url(#emblemGrad)" />
+    <path d="M 62,12 L 66,16 L 62,17 Z" fill="#FFF" opacity="0.3" />
+    <path d="M 70,71 L 70,34 L 80,29 L 80,71 Z" fill="url(#emblemGrad)" />
+    <path d="M 80,29 L 83,32 L 80,33 Z" fill="#FFF" opacity="0.3" />
+    <path d="M 86,71 L 86,43 L 94,39 L 94,71 Z" fill="url(#emblemGrad)" />
+    <path d="M 94,39 L 97,42 L 94,43 Z" fill="#FFF" opacity="0.3" />
+    <path d="M 100,71 L 100,50 L 106,47 L 106,71 Z" fill="url(#emblemGrad)" />
+    <path d="M 106,47 L 109,50 L 106,51 Z" fill="#FFF" opacity="0.3" />
+  </g>
+
+  <!-- Typography Banner styled matching uploaded insignia -->
+  <text 
+    x="256" 
+    y="375" 
+    font-family="system-ui, -apple-system, sans-serif" 
+    font-weight="900" 
+    font-size="24" 
+    fill="#174A7C" 
+    text-anchor="middle" 
+    letter-spacing="0.5"
+  >SAIMON PROPERTIES LTD.</text>
+</svg>
