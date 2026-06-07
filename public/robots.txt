@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://saimonproperties.com/sitemap.xml
+Disallow: /admin
+Disallow: /admin/login
+
+Sitemap: https://www.saimonproperties.com/sitemap.xml
